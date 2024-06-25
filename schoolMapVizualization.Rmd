@@ -95,7 +95,7 @@ schools_df <- data.frame(School = schools_names,
 Firstly, I found the coordinates of Gdynia for setView() so that the map view would be set in the right place. I decided to use addAwesomeMarkers to mark schools as points because it allows me to customize icons. For customization, I created a getColor function, which assigns a color to the marker depending on the school's rank. I also added a legend for the map's readability.
 Thanks to the popup, after clicking on the marker information about name, city, year, and place in the ranking is displayed. The value for City is static because the project includes only schools from Gdynia. 
 
-```{r, echo=FALSE}
+```{r}
 
 getColor <- function(schools_df) {
   sapply(schools_df$Rank, function(Rank) {
