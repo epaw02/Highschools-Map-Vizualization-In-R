@@ -3,6 +3,7 @@ title: "School Ranking Vizualization"
 author: "Emilia Pawlowska"
 date: "2024-01-15"
 output: github_document
+always_allow_html: true
 ---
 
 ```{r setup, include=FALSE}
